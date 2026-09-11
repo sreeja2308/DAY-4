@@ -54,10 +54,10 @@ img{
 }
 .card:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px rgb(233, 96, 5);
 }
 .icon:hover{
     transform: scale(1.2);
-    box-shadow: 0 0 15px rgb(210, 38, 38);
+    box-shadow: 0 0 15px rgb(194, 2, 233);
 }
 
