@@ -1,6 +1,63 @@
-*{
-    background-color: lightgrey;
+body{
+    background-color:rgb(230, 216, 216);
 }
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .title{
     text-align: center;
 }
+h1{
+    color: rgba(113, 0, 0, 0.797)
+
+}
+h2{
+    color:rgb(18, 20, 21);
+    background-color:pink;
+    padding:5px;
+}
+.content h3{
+    color:rgb(159, 57, 57)
+}
+.card{
+    width: 200px;
+    background-color:rgb(180, 216, 220);
+    padding: 9px;
+    border-radius: 10px;
+    transition: transform .5s, box-shadow .5s;
+}
+.social-icon{
+    display:flex;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(176, 234, 226);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s, border-shadow .5s;
+}
+img{
+    width: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.container{
+    display:flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px black;
+}
+.icon:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(210, 38, 38);
+}
+
